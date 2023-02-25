@@ -1,0 +1,80 @@
+:root {
+  --color-primary: black;
+  --color-secondary: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.heading__elt--bg-dark {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  margin: 0;
+  padding: 1.5rem;
+  font-weight: 200;
+}
+
+.btn__add-row {
+  background-color: var(--color-primary);
+  margin: 1.7rem;
+  width: 250px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: var(--color-secondary);
+}
+
+/* table styles */
+
+table {
+  margin: 0 1.7rem 0 1.7rem;
+  width: 98%;
+}
+
+table,
+thead,
+th,
+td {
+  border: 1px solid var(--color-primary);
+  border-collapse: collapse;
+}
+
+th {
+  padding: 15px 10px;
+}
+
+td {
+  padding: 20px 10px 50px 10px;
+  text-align: center;
+}
+
+td input:focus {
+  outline-style: none;
+}
+
+th {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+td input {
+  text-align: center;
+  height: 50px;
+  width: 80%;
+  border: none;
+  font-size: 24px;
+}
+
+.btn-dark {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 6px 30px;
+  font-size: 24px;
+}
